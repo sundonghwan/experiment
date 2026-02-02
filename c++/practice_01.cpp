@@ -13,6 +13,6 @@ int main() {
     std::cout << "&arr[0] = " << (void*)&arr[0] << "\n";
     std::cout << "&arr[1] = " << (void*)&arr[1] << "\n";
 
-    std:ptrdiff_t diff = (char*)&arr[1] - (char*)&arr[0];
+    std::ptrdiff_t diff = (char*)&arr[1] - (char*)&arr[0];
     std::cout <<"byte diff = " << diff <<"\n";
 }
